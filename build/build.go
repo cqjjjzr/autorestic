@@ -23,7 +23,7 @@ var targets = map[string][]string{
 	"linux":   {"386", "amd64", "arm", "arm64", "ppc64le", "mips", "mipsle", "mips64", "mips64le", "s390x"},
 	"netbsd":  {"386", "amd64"},
 	"openbsd": {"386", "amd64"},
-	// "windows": {"386", "amd64"}, // Not supported by autorestic
+	"windows": {"386", "amd64"}, // Not supported by autorestic, but who cares?
 	"solaris": {"amd64"},
 }
 
